@@ -64,9 +64,3 @@ body:hover nav {
   top: 0;
 }
 
-main {
-  margin: 0 auto;      /* centre horizontalement */
-  max-width: 800px;    /* largeur maximale du texte */
-  text-align: left;    /* texte aligné à gauche */
-  padding: 0 20px;     /* espace autour du texte */
-}
