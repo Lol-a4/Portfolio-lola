@@ -9,19 +9,19 @@ body {
 }
 
 h1 {
-  text-align: center;
-  padding: 48px;
+  margin: 120px 0 20px 0; /* espace sous la nav fixe */
+  font-size: 48px;
 }
 
 h2,
 h2 + p {
   text-align: left; /* aligne les h2 à gauche */
-  margin-left: 40px; /* optionnel : ajoute un peu de marge */
+  margin-left: 0; /* optionnel : ajoute un peu de marge */
 }
 
 nav {
   position: fixed;          /* reste collé en haut */
-  top: -80px;               /* cachée au départ */
+  top: 0;               /* cachée au départ */
   left: 0;
   width: 100%;              /* prend toute la largeur */
   background-color: #111;   /* couleur */
