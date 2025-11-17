@@ -13,11 +13,11 @@ h1 {
 }
 nav {
   position: fixed;          /* reste collé en haut */
-  top: -60px;               /* cachée au départ */
+  top: -80px;               /* cachée au départ */
   left: 0;
   width: 100%;              /* prend toute la largeur */
   background-color: #111;   /* couleur */
-  padding: 10px;
+  padding: 20px 20px;    
   transition: top 0.3s;     /* animation douce */
   z-index: 1000;            /* passe devant tout */
 }
