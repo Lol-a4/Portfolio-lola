@@ -12,6 +12,12 @@ h1 {
   text-align: center;
   padding: 48px;
 }
+
+h2 {
+  text-align: left; /* aligne les h2 à gauche */
+  margin-left: 40px; /* optionnel : ajoute un peu de marge */
+}
+
 nav {
   position: fixed;          /* reste collé en haut */
   top: -80px;               /* cachée au départ */
