@@ -5,11 +5,12 @@ body {
   color: white;                    
   margin: 0;
   padding: 20px;
+  text-align: center; /* centre le texte */
 }
 
 h1 {
   text-align: center;
-  padding: 20px;
+  padding: 48px;
 }
 nav {
   position: fixed;          /* reste collé en haut */
@@ -17,14 +18,14 @@ nav {
   left: 0;
   width: 100%;              /* prend toute la largeur */
   background-color: #111;   /* couleur */
-  padding: 40px;    
+  padding: 20px 40px;    
   transition: top 0.3s;     /* animation douce */
   z-index: 1000;            /* passe devant tout */
 
   display: flex;           /* rend nav flexible */
   justify-content: space-between; /* espace entre titre et liens */
   align-items: flex-start; /* aligne en haut */
-  position: relative;  
+  
 }
 
 nav h1 {
@@ -39,8 +40,6 @@ nav ul {
   gap: 20px;
   margin: 0;
   padding: 0;
-  position: absolute;      /* positionne les liens indépendamment */
-  right: 20px;             /* à droite de la barre */
 }
 
 
@@ -56,4 +55,8 @@ nav a:hover {
 
 body:hover nav {
   top: 0;
+}
+
+main {
+  padding-top: 100px; /* espace égal à la hauteur de la nav */
 }
