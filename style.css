@@ -4,7 +4,7 @@ body {
   background-color: #281387;       
   color: white;                    
   margin: 0;
-  padding: 60px 20px;
+  padding: 20px;
   text-align: center; /* centre le texte */
 }
 
@@ -65,5 +65,8 @@ body:hover nav {
 }
 
 main {
-  padding-top: 100px; /* espace égal à la hauteur de la nav */
+  margin: 0 auto;      /* centre horizontalement */
+  max-width: 800px;    /* largeur maximale du texte */
+  text-align: left;    /* texte aligné à gauche */
+  padding: 0 20px;     /* espace autour du texte */
 }
