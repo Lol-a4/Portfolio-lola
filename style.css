@@ -17,7 +17,7 @@ nav {
   left: 0;
   width: 100%;              /* prend toute la largeur */
   background-color: #111;   /* couleur */
-  padding: 20px 20px;    
+  padding: 40px;    
   transition: top 0.3s;     /* animation douce */
   z-index: 1000;            /* passe devant tout */
 
