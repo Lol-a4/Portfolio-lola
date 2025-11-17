@@ -20,6 +20,10 @@ nav {
   padding: 20px 20px;    
   transition: top 0.3s;     /* animation douce */
   z-index: 1000;            /* passe devant tout */
+
+  display: flex;           /* rend nav flexible */
+  justify-content: space-between; /* espace entre titre et liens */
+  align-items: flex-start; /* aligne en haut */
 }
 nav ul {
   list-style: none;
