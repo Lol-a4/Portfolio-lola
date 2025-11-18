@@ -30,7 +30,12 @@ h1 {
   font-size: 60px;
   position: relative;
   display: inline-block; 
-  text-align: left;
+  text-align: left;
+  background: linear-gradient(45deg, #f9f9fb, #a097d6); /* Dégradé de blanc à un violet clair */
+  -webkit-background-clip: text; /* Mettre le dégradé uniquement dans le texte */
+  -webkit-text-fill-color: transparent; /* Rendre le texte transparent pour voir le dégradé */
+}
+
 }
 
 h1::before {
