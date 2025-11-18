@@ -48,7 +48,7 @@ h1::after {
   font-size: 0.3em;
   color: #f9f9fb; 
   position: absolute;
-  top: 10px;
+  top: 0px;
   right: -30px;
 
 }
