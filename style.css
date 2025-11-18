@@ -53,6 +53,10 @@ h1::after {
 
 }
 
+p {
+  text-align: left; /* Aligne tout le contenu textuel des balises <p> à gauche */
+}
+
 h2,
 h2 + p {
   text-align: left; /* aligne les h2 à gauche */
