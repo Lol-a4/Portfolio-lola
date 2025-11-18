@@ -15,7 +15,6 @@ body {
   margin: auto;
   padding: 20px;             
   border-radius: 20px;         
-  background: #281387;         
 }
 
 
@@ -24,18 +23,19 @@ body {
   padding: 20px;
   border-radius: 15px;
   border: 2px solid #ccc; 
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
 h1 {
   margin: 200px 0px 230px; /* espace sous la nav fixe */
   font-size: 60px;
+  position: relative;
+  display: inline-block; 
+  text-align: left;
 }
 
 h2,
 h2 + p {
   text-align: left; /* aligne les h2 à gauche */
-  margin-left: 0; /* optionnel : ajoute un peu de marge */
   margin-top: 0; 
 }
 
@@ -90,3 +90,4 @@ body:hover nav {
   border-radius: 15px;
   margin-bottom: 10px;
   color: white;
+}
