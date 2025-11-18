@@ -40,7 +40,7 @@ h1 {
 
 h1:hover {
   transform: scale(1.05) translateY(-2px); /* Grandit de 5% et monte de 2px */
-  text-shadow: 0 0 15px #c4b9ff, 0 0 20px rgba(196, 185, 255, 0.8); /* Augmente la lueur au survol */
+  text-shadow: 0 0 5px #c4b9ff, 0 0 10px rgba(196, 185, 255, 0.8); /* Augmente la lueur au survol */
 }
 
 p {
