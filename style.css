@@ -54,12 +54,11 @@ h2 + p {
 }
 
 h3 {
-  /* Assurez-vous que le h3 ne prenne pas toute la largeur */
   display: inline-block; 
   /* Centre le contenu par rapport au <body> qui a text-align: center; */
   text-align: center; 
   /* Réduit la marge pour le placer près du h1 */
-  margin: 10px 0 0; 
+  margin: 50px 0 0; 
   /* Donnez-lui une taille appropriée, par exemple plus petite que le h1 */
   font-size: 28px; 
 }
