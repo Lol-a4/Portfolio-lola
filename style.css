@@ -33,6 +33,16 @@ h1 {
   text-align: left;
 }
 
+h1::before {
+ content: "\2605"; 
+ font-size: 0.7em; /* Rendre l'étoile légèrement plus petite */
+ color: #f9f9fb; /* Vous pouvez choisir une autre couleur si vous voulez */
+ position: absolute;
+ top: 10px; /* Ajustez la hauteur par rapport au haut du H1 */
+ left: -30px; /* Ajustez la distance par rapport à la gauche du H1 */
+
+}
+
 h2,
 h2 + p {
   text-align: left; /* aligne les h2 à gauche */
