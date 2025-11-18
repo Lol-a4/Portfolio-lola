@@ -51,7 +51,8 @@ h1::before {
 h1::after {
   content: "\2605"; /* Étoile */
   font-size: 0.3em;
-  color: #f9f9fb; 
+  color: transparent; 
+  text-shadow: 0 0 0 #f9f9fb;
   position: absolute;
   top: 0px;
   right: -30px;
