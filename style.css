@@ -37,6 +37,7 @@ h2,
 h2 + p {
   text-align: left; /* aligne les h2 à gauche */
   margin-left: 0; /* optionnel : ajoute un peu de marge */
+  margin-top: 0; 
 }
 
 nav {
