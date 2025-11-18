@@ -30,7 +30,7 @@ body {
 
 h1 {
   margin: 200px 0px 230px; /* espace sous la nav fixe */
-  font-size: 48px;
+  font-size: 60px;
 }
 
 h2,
@@ -71,13 +71,13 @@ nav ul {
 
 
 nav a {
-  color: #281387;
+  color: #f9f9fb;
   text-decoration: none;
   font-weight: bold;
 }
 
 nav a:hover {
-  color: #f5f4f7;
+  color: #281387;
 }
 
 body:hover nav {
