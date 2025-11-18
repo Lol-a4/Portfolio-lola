@@ -85,3 +85,9 @@ body:hover nav {
   top: 0;
 }
 
+.barre {
+  background: #3c1fbd; /* couleur violet */
+  padding: 15px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  color: white;
