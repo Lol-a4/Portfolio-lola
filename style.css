@@ -38,7 +38,7 @@ h1::before {
  font-size: 0.7em; /* Rendre l'étoile légèrement plus petite */
  color: #f9f9fb; /* Vous pouvez choisir une autre couleur si vous voulez */
  position: absolute;
- top: 40px; /* Ajustez la hauteur par rapport au haut du H1 */
+ top: 0px; /* Ajustez la hauteur par rapport au haut du H1 */
  left: -30px; /* Ajustez la distance par rapport à la gauche du H1 */
 
 }
