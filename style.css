@@ -50,6 +50,7 @@ h1::before {
   position: absolute;
   top: 10px;
   left: -30px;
+  animation: rotation 4s infinite linear reverse;
 
 }
 
