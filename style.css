@@ -58,7 +58,7 @@ h3 {
   /* Centre le contenu par rapport au <body> qui a text-align: center; */
   text-align: center; 
   /* Réduit la marge pour le placer près du h1 */
-  margin: 50px 0 0; 
+  margin: 250px 0 0; 
   /* Donnez-lui une taille appropriée, par exemple plus petite que le h1 */
   font-size: 28px; 
 }
@@ -112,7 +112,7 @@ body:hover nav {
 }
 
 .barre {
-  background: #3c1fbd; /* couleur violet */
+  background: #3c1fbd; 
   padding: 15px;
   border-radius: 15px;
   margin-bottom: 10px;
