@@ -82,8 +82,11 @@ h3 {
   font-size: 28px; 
 }
 
-
-
+.photo {
+    /* 2a. Définir une petite taille (ajustez 200px si vous voulez une autre taille) */
+    width: 200px;
+    height: auto;
+}
 
 nav {
   position: fixed;          /* reste collé en haut */
