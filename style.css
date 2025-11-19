@@ -40,7 +40,7 @@ body {
         0 0 30px #5a3ed1;  /* Lueur intense */
 }
 h1 {
-  margin: 100px 0px 23px; /* espace sous la nav fixe */
+  margin: 80px 0px 23px; /* espace sous la nav fixe */
   font-size: 60px;
   position: relative;
   display: inline-block; 
@@ -110,7 +110,7 @@ h3 {
   text-align: center; 
   margin: 10px 0 20px; 
   font-size: 28px; 
-  color :#969191
+  color :#b4b1b1
 }
 
 img {
