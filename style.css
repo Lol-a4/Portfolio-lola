@@ -81,6 +81,13 @@ p {
   text-align: justify;
 }
 
+
+#Contact p:nth-of-type(1),
+#projets p:nth-of-type(2) {
+  text-align: left;
+}
+
+
 #projets p:nth-of-type(1),
 #projets p:nth-of-type(6),
 #projets p:nth-of-type(10) {
