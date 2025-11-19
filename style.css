@@ -67,9 +67,7 @@ p {
   text-align: left; /* Aligne tout le contenu textuel des balises <p> à gauche */
 }
 
-p1 {
-  text-align: left; /* Aligne tout le contenu textuel des balises <p> à gauche */
-}
+
 
 h2,
 h2 + p {
@@ -77,12 +75,7 @@ h2 + p {
   margin-top: 0; 
 }
 
-p1:nth-of-type(1),
-p1:nth-of-type(6) {
-    font-weight: bold;
-    font-size: 1.2em;
-    color: blue;
-}
+
 
 
 
