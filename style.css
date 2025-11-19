@@ -26,8 +26,9 @@ body {
 
   /* PROPRIÉTÉ POUR L'EFFET NÉON (LUEUR) */
   box-shadow: 
-      0 0 60px #5a3ed1,  /* lueur proche (couleur de la bordure) */
-
+        0 0 10px #5a3ed1,  /* Lueur interne (moins de flou) */
+        0 0 20px #5a3ed1,  /* Lueur principale (flou moyen) */
+        0 0 40px #5a3ed1;  /* Lueur externe (plus de flou) */
 }
 
 h1 {
