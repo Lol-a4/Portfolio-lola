@@ -5,7 +5,7 @@ body {
   color: white;                    
   margin: 0;
   padding: 70px 20px;
-  text-align: right; 
+  text-align: center; 
 }
 .container {
   display: flex;
@@ -44,7 +44,7 @@ h1 {
   font-size: 60px;
   position: relative;
   display: inline-block; 
-  text-align: left;
+  text-align: right;
   color: #8070c9;
 }
 
