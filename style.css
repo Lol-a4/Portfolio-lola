@@ -31,16 +31,26 @@ h1 {
   position: relative;
   display: inline-block; 
   text-align: left;
-  background: linear-gradient(45deg, #f9f9fb, #8070c9); /* Dégradé de blanc à un violet clair */
-  -webkit-background-clip: text; /* Mettre le dégradé uniquement dans le texte */
-  -webkit-text-fill-color: transparent; /* Rendre le texte transparent pour voir le dégradé */
-  transition: transform 0.3s ease-out; /* Assurez une animation douce */
-  cursor: pointer; /* Indique que c'est interactif */
 }
 
-h1:hover {
-  transform: scale(1.05) translateY(-2px); /* Grandit de 5% et monte de 2px */
-  text-shadow: 0 0 5px #c4b9ff, 0 0 10px rgba(196, 185, 255, 0.8); /* Augmente la lueur au survol */
+h1::after {
+content: "\2605"; /* Étoile */
+font-size: 0.3em;
+color: #f1de06; 
+position: absolute;
+top: 10px;
+right: -30px;
+
+}
+
+h1::before {
+  content: "\2605"; /* Étoile */
+  font-size: 0.3em;
+  color: #f1de06; 
+  position: absolute;
+  top: 10px;
+  left: -30px;
+
 }
 
 p {
