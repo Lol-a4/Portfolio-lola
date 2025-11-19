@@ -71,7 +71,7 @@ p {
 #projets p:nth-of-type(6),
 #projets p:nth-of-type(10) {
     font-weight: bold; /* Texte en gras */
-    font-size: 1,61,6em;  /* Police plus grande (ajustez 1.2em si besoin) */
+    font-size: 1,9em;  /* Police plus grande (ajustez 1.2em si besoin) */
     
     /* Style optionnel, pour distinguer davantage les titres */
     color: #281387; /* Couleur gris foncé */
