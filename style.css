@@ -26,7 +26,7 @@ body {
 }
 
 h1 {
-  margin: 200px 0px 23px; /* espace sous la nav fixe */
+  margin: 100px 0px 23px; /* espace sous la nav fixe */
   font-size: 60px;
   position: relative;
   display: inline-block; 
