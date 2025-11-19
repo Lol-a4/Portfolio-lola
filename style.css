@@ -5,7 +5,7 @@ body {
   color: white;                    
   margin: 0;
   padding: 70px 20px;
-  text-align: center; 
+  text-align: left; 
 }
 .container {
   display: flex;
@@ -46,7 +46,6 @@ h1 {
   position: relative;
   display: inline-block; 
   color: #8070c9;
-  text-align: left;
 }
 
 h1::after {
