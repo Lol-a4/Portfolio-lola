@@ -65,6 +65,7 @@ h1::before {
 
 p {
   text-align: justify;
+  text-align: left;
 }
 
 #projets p:nth-of-type(1),
