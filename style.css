@@ -45,6 +45,7 @@ h1 {
   position: relative;
   display: inline-block; 
   text-align: left;
+  color: #8070c9;
 }
 
 h1::after {
