@@ -40,7 +40,7 @@ body {
         0 0 30px #5a3ed1;  /* Lueur intense */
 }
 h1 {
-  margin: 80px 0px 23px; /* espace sous la nav fixe */
+  margin: 60px 0px 23px; /* espace sous la nav fixe */
   font-size: 60px;
   position: relative;
   display: inline-block; 
