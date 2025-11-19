@@ -18,18 +18,26 @@ body {
 }
 
 
-.card {
+card {
   background: #8070c9;
   padding: 20px;
   border-radius: 15px;
   border: 2px solid #5a3ed1; 
 
   /* PROPRIÉTÉ POUR L'EFFET NÉON (LUEUR) */
-  box-shadow: 
-      0 0 5px #5a3ed1,      /* Lueur très proche */
-      0 0 20px #5a3ed1,     /* Lueur moyenne */
-      0 0 30px #5a3ed1,     /* Lueur intense */
-      
+  box-shadow: none; 
+    
+    /* On garde la transition pour l'animation */
+    transition: box-shadow 0.3s ease-in-out; 
+}
+
+/* 2. L'état de survol (HOVER) qui applique la lueur */
+card:hover {
+    /* Le code box-shadow doit être correct */
+    box-shadow: 
+        0 0 5px #5a3ed1,   /* Lueur très proche */
+        0 0 20px #5a3ed1,  /* Lueur moyenne */
+        0 0 30px #5a3ed1;  /* Lueur intense */
 }
 h1 {
   margin: 100px 0px 23px; /* espace sous la nav fixe */
