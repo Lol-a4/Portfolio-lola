@@ -28,7 +28,7 @@ body {
   box-shadow: none; 
     
     /* On garde la transition pour l'animation */
-    transition: box-shadow 0.3s ease-in-out; 
+    transition: box-shadow 0.1s ease-in-out; 
 }
 
 /* 2. L'état de survol (HOVER) qui applique la lueur */
