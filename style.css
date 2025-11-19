@@ -25,11 +25,19 @@ body {
   border: 2px solid #5a3ed1; 
 
   /* PROPRIÉTÉ POUR L'EFFET NÉON (LUEUR) */
-  box-shadow: 
-        0 0 10px #5a3ed1,  /* Lueur interne (moins de flou) */
-        0 0 20px #5a3ed1,  /* Lueur principale (flou moyen) */
-        0 0 40px #5a3ed1;  /* Lueur externe (plus de flou) */
+  box-shadow: none; 
+    /* apparition progressive de la lueur */
+    transition: box-shadow 0.3s ease-in-out;
+
+
+.card:hover {
+    box-shadow: 
+        0 0 5px #5a3ed1,      /* Lueur très proche */
+        0 0 25px #5a3ed1,     /* Lueur moyenne */
+        0 0 50px #5a3ed1,     /* Lueur intense */
+        0 0 75px #5a3ed1;     /* Lueur très diffuse */
 }
+
 
 h1 {
   margin: 100px 0px 23px; /* espace sous la nav fixe */
