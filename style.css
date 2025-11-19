@@ -82,21 +82,19 @@ p {
 }
 
 
+
 #contact p:nth-of-type(1),
 #contact p:nth-of-type(2) {
   text-align: left;
 }
 
-
 #projets p:nth-of-type(1),
 #projets p:nth-of-type(6),
 #projets p:nth-of-type(10) {
-    font-weight: bold; /* Texte en gras */
-    font-size: 1.4em;  /* Police plus grande (ajustez 1.2em si besoin) */
-    
-    /* Style optionnel, pour distinguer davantage les titres */
-    color: #281387; /* Couleur gris foncé */
-    margin-top: 15px; /* Ajouter un peu d'espace avant chaque titre */
+    font-weight: bold; /* gras */
+    font-size: 1.4em;  /* Police plus grande */
+    color: #281387; /* Titre plus foncé */
+    margin-top: 15px; /* Ajout d'espace avant chaque titre */
 }
 
 h2,
@@ -105,15 +103,10 @@ h2 + p {
   margin-top: 0; 
 }
 
-
-
-
-
 h3 {
   display: inline-block; 
   /* Centre le contenu par rapport au <body> qui a text-align: center; */
   text-align: center; 
-  /* Réduit la marge pour le placer près du h1 */
   margin: 10px 0 20px; 
   font-size: 28px; 
 }
@@ -163,7 +156,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #281387;
+  color: #8070c9;
 }
 
 body:hover nav {
