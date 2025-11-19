@@ -83,7 +83,7 @@ p {
 
 
 #Contact p:nth-of-type(1),
-#projets p:nth-of-type(2) {
+#Contact p:nth-of-type(2) {
   text-align: left;
 }
 
