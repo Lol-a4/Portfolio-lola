@@ -78,7 +78,7 @@ h3 {
   /* Centre le contenu par rapport au <body> qui a text-align: center; */
   text-align: center; 
   /* Réduit la marge pour le placer près du h1 */
-  margin: 250px 0 0; 
+  margin: 25px 0 0; 
   /* Donnez-lui une taille appropriée, par exemple plus petite que le h1 */
   font-size: 28px; 
 }
