@@ -26,7 +26,7 @@ body {
 }
 
 h1 {
-  margin: 200px 0px 23px; /* espace sous la nav fixe */
+  margin: 200px 0px 230px; /* espace sous la nav fixe */
   font-size: 60px;
   position: relative;
   display: inline-block; 
@@ -58,7 +58,7 @@ h3 {
   /* Centre le contenu par rapport au <body> qui a text-align: center; */
   text-align: center; 
   /* Réduit la marge pour le placer près du h1 */
-  margin: 50px 0 200px; 
+  margin: 50px 0 0; 
   /* Donnez-lui une taille appropriée, par exemple plus petite que le h1 */
   font-size: 28px; 
 }
