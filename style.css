@@ -64,7 +64,7 @@ h1::before {
 }
 
 p {
-  text-align: left; /* Aligne tout le contenu textuel des balises <p> à gauche */
+  text-align: justify;
 }
 
 #projets p:nth-of-type(1),
