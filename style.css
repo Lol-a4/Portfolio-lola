@@ -5,7 +5,7 @@ body {
   color: white;                    
   margin: 0;
   padding: 70px 20px;
-  text-align: center; 
+  text-align: right; 
 }
 .container {
   display: flex;
