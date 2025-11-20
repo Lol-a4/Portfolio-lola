@@ -104,7 +104,8 @@ p {
 
 h2 {
   text-align: center;
-  display: inline-block
+  display: inline-block;
+  position: relative; 
 }
 
 h2::before {
