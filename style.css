@@ -82,6 +82,9 @@ p {
   text-align: justify;
 }
 
+#présentation h2:nth-of-type(1){
+  margin: 0 0 5px;
+}
 
 #contact p:nth-of-type(1),
 #contact p:nth-of-type(2) {
@@ -113,7 +116,7 @@ h2::before {
   font-size: 0.7em;
   color: #f1de06; 
   position: absolute;
-  top: 30px;
+  top: 0px;
   left: -30px;
   animation: rotation 4s infinite linear reverse;
 }
@@ -124,7 +127,7 @@ content: "\2605"; /* Étoile */
 font-size: 0.7em;
 color: #f1de06; 
 position: absolute;
-top: 30px;
+top: 0px;
 right: -30px;
 animation: rotation 4s infinite linear reverse;
 }
