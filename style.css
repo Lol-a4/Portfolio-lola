@@ -106,11 +106,16 @@ h2::before {
     margin-top: 15px; /* Ajout d'espace avant chaque titre */
 }
 
-h2,
-h2 + p {
+p {
   text-align: left; /* aligne les h2 à gauche */
   margin-top: 0; 
 }
+
+h2 {
+  text-align: center;
+
+}
+
 
 h3 {
   display: inline-block; 
